@@ -23,6 +23,21 @@
                 </v-card>
               </v-dialog>
             </v-btn>
+            <v-btn class="ml-2">
+              Dropdown Menu <v-icon icon="mdi-chevron-down" />
+              <v-menu activator="parent" anchor="bottom end">
+                <v-sheet>
+                  <v-list>
+                    <v-list-item
+                      v-for="i in 5"
+                      :title="'List item with a long title ' + i"
+                      :key="i"
+                      link
+                    />
+                  </v-list>
+                </v-sheet>
+              </v-menu>
+            </v-btn>
           </v-col>
         </v-row>
       </v-container>
