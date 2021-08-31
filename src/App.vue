@@ -4,7 +4,7 @@
       <v-container fluid class="text-center">
         <h1 class="mb-4">Hello World</h1>
 
-        <v-btn>
+        <v-btn color="primary">
           {{ dialog ? "Close" : "Open" }} alpha11 dialog with parent activator
 
           <v-dialog v-model="dialog" activator="parent">

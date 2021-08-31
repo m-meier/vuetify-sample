@@ -15,7 +15,7 @@ const vuetify = createVuetify({
         colors: {
           primary: colors.blue.base,
           secondary: colors.deepOrange.lighten1,
-          background: colors.blue.base,
+          background: colors.grey.lighten4,
         },
       },
     },
