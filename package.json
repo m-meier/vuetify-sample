@@ -1,0 +1,25 @@
+{
+  "name": "vuetify-sample",
+  "version": "0.0.0",
+  "scripts": {
+    "serve": "vite preview",
+    "build": "vite build",
+    "dev": "vite"
+  },
+  "dependencies": {
+    "@mdi/font": "5.9.55",
+    "roboto-fontface": "*",
+    "vue": "^3.2.6",
+    "vuetify": "^3.0.0-alpha.11"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.6.0",
+    "@vuetify/vite-plugin": "^1.0.0-alpha.2",
+    "vuetify-loader": "next",
+    "@vue/compiler-sfc": "^3.2.6",
+    "sass": "~1.38.2",
+    "sass-loader": "^12.1.0",
+    "vite": "^2.5.1",
+    "vue-cli-plugin-vuetify": "~2.4.2"
+  }
+}
